@@ -28,4 +28,8 @@ export class CrewComponent implements OnInit {
   edit(member: object) {
     this.memberBeingEdited = member;
  }
+ save(name: string, member: object) {
+  member['name'] = name;
+  this.memberBeingEdited = null;
+  }
 }
