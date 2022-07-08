@@ -24,3 +24,8 @@ h3 {
 .selected {
     color: blue;
 }
+
+.pointer{
+    font-size: larger;
+    font:bold;
+}
